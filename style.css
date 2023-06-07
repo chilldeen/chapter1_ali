@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn.btn-success {
+    background-color: #5CB85F;
+    border: 1px solid #5CB85F;
+    color: #ffffff;
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn.btn-success:hover {
+    background-color: #49934c;
+    border: 1px solid #49934c;
+    color: #ffffff;
+}
+
+/* ===== Navbar ===== */
+nav.navbar {
+    background-color: #F1F3FF;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.offcanvas-body ul li a {
+    color: #646464;
+    margin: 0 10px;
+}
+
+/* ===== Main Section ===== */
+.main-section {
+    height: 100vh;
+    background-color: #F1F3FF;
+    position: relative;
+}
+
+/* .bg-car::before {
+    content: "";
+    position: absolute;
+    background-color: #0D28A6;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    border-radius: 100px 0 0 0;
+} */
+
+.tagline h2,
+.tagline a {
+    margin: 24px 0;
+    text-transform: capitalize;
+}
+
+/* ===== Services Section ===== */
+
+/* ===== Why Us Section ===== */
+.why-us .card-body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-body img {
+    padding-bottom: 1.5rem;
+}
+
+/* ===== Testimonial Section ===== */
+.card {
+    align-items: center;
+    padding: 2rem;
+}
+
+.card img {
+    max-height: 30%;
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.card h5 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* ===== Banner Section ===== */
+.banner .container {
+    background-color: #0D28A6;
+    border-radius: 13px;
+    color: white;
+    width: 100%;
+}
+
+.banner .container * {
+    margin: 16px 0;
+}
+
+/* ===== Footer Section ===== */
+footer img {
+    margin-right: 10px;
+    padding: 5px 7px;
+    font-size: 18px;
+    color: white;
+}
+
+footer .col-md-2 a {
+    color: black;
+}
+
+footer .col-md-2 a:hover {
+    color: #5CB85F;
+    transition: 400ms ease-in-out;
+}
+
+/* ===== Media Querries ===== */
+@media (max-width: 767.98px) {
+    .img_car {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991.98px) {
+    .img_service {
+        padding-left: 5rem;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1439px) {
+    .img_car {
+        width: 100%;
+    }
+}
